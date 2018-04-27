@@ -38,3 +38,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.about-list {
+    list-style-type: none;
+}
