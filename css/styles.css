@@ -70,3 +70,17 @@ h3 {
 .about-list {
     list-style-type: none;
 }
+
+li.links {
+    list-style-type: none;
+    display: inline;
+}
+ul.links {
+    text-align: center;
+}
+ul.james {
+    float: left;
+}
+ul.heather {
+    float: right;
+}
