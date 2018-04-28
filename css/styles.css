@@ -4,6 +4,34 @@
          url('fonts/Grot10_RegularWEB.woff') format('woff');
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    background: yellow;
+    }
+
+    .header {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        background: green;
+    }
+    .primary {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        background: blue;
+    }
+    .secondary {
+        grid-column-start: 9;
+        grid-column-end: -1;
+        background: grey;
+    }
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        background: brown;
+    }
+
 body {
     color: black;
     font-family: 'Grot10', sans-serif;
